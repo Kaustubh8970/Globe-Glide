@@ -1,0 +1,41 @@
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+
+.content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.content>.head{
+    color: white;
+    font-size: 73px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.para>.spin{
+    color: #f24d1bff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}

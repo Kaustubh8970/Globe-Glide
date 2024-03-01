@@ -1,0 +1,59 @@
+.beaches-container {
+    margin: 20px;
+    
+  }
+
+  h2 {
+    color: #333;
+  }
+  span{
+    text-size-adjust: 2px;
+  }
+  .beach-list {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+  }
+  
+  i{
+    font-size:medium;
+    font-weight: 500;
+  }
+
+  .beach {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+
+  .beach-image {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .beach-details {
+    padding: 10px;
+  }
+  
+  .beach-details h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .beach-details p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .beach-details strong {
+    font-weight: bold;
+  }
+  
+  .beach-details p.description {
+    color: #666;
+  }
+  

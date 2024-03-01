@@ -1,0 +1,92 @@
+.dummy-hotel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    height: 100vh;
+}
+
+.bookticks
+{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 20px;
+}
+
+.dummy-hotel-container {
+        width: 60%;
+    height: 35vh;
+}
+
+.dummy-hotel h3 {
+    margin-top: 0;
+    text-align: center;
+
+}
+
+.dummy-hotel p {
+    margin-bottom: 10px;
+}
+
+.book-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.booking-window {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 25%;
+    width: 50%;
+    gap: 40px;
+    background-color: #fff;
+}
+
+.booking-window h4 {
+    margin-top: 0;
+
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.booking-window button[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.booking-window button[type="submit"]:hover {
+    background-color: #45a049;
+}

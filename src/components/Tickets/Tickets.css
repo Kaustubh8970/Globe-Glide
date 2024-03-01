@@ -1,0 +1,16 @@
+.no-bookings-img{
+   width: 200px;
+
+}
+
+.no-bookings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.my-tickets{
+    min-height: 90vh;
+    padding-top: 150px;
+}
